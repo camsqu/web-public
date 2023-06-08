@@ -1,7 +1,8 @@
 <!-- 2023 Cameron Squire -->
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -9,125 +10,198 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@100;300;400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    <link href="https://assets.camsqu.network/cslogo-light.ico" rel="icon" media="(prefers-color-scheme: light)"/>
-    <link href="https://assets.camsqu.network/cslogo-dark.ico" rel="icon" media="(prefers-color-scheme: dark)"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://assets.camsqu.network/cslogo-light.ico" rel="icon" media="(prefers-color-scheme: light)" />
+    <link href="https://assets.camsqu.network/cslogo-dark.ico" rel="icon" media="(prefers-color-scheme: dark)" />
     <script src="https://kit.fontawesome.com/14de02cc28.js" crossorigin="anonymous"></script>
     <style>
-      body {
-        background-color: #3e3e3e;
-        color: white; /*default text color*/
-        font-family: 'Geologica', sans-serif;
-      }
-
-      #name {
-        font-size: 8vh;
-        margin: 3vh 0 0 3vw;
-      }
-
-      .console-underscore {
-        display:inline-block;
-        position:relative;
-        top:-0.25vh;
-        left:0.2vw;
-      }
-
-      #tagline {
-        margin: 0.2vh 0 6vh 4vw;
-        font-size: 3vh;
-        position: absolute;
-        font-weight: 100;
-      }
-
-      #main {
-        position: relative;
-        top: 10vh;
-      }
-
-      #bio {
-        width: 30vw;
-        margin: 2vh 0 0 3vw;
-        font-size: 2vh;
-        /* border: #525252 0.8vh solid; */
-        /* border-radius: 1vw; */
-        padding: 1vh;
-      }
-
-      a {
-        color: white;
-        text-decoration: none;
-      }
-
-      #links{
-        width: 30vw;
-        margin: 8vh 0 1vh 4vw;
-      }
-
-      .link {
-        margin: 7vh 0 7vh 0;
-      }
-
-      .link-btn {
-        padding: 3vh;
-        font-size: 2vh;
-        transition-duration: 0.3s;
-      }
-      .link-btn:hover {
-        background-color: white;
-        color: #3e3e3e;
-        box-shadow: -1vw 1vh 1vh rgba(0,0,0,1);
-        transition-duration: 0.3s;
-      }
-
-      .fa {
-        font-size: 3vh; 
-        padding-right: 1vw; 
-        vertical-align: sub;
-      }
-      #copyright {
-        position: relative;
-        bottom: -11vh;
-        text-align: right;
-        font-weight: 100;
-      }
-
-      @media only screen and (max-width: 768px) {
-        /* Change the layout for small screens */
-        #bio, #links {
-            width: 90vw;
+        body {
+            background-color: #3e3e3e;
+            color: white;
+            /*default text color*/
+            font-family: 'Geologica', sans-serif;
         }
-      }
+
+        #name {
+            font-size: 8vh;
+            margin: 3vh 0 0 3vw;
+        }
+
+        .console-underscore {
+            display: inline-block;
+            position: relative;
+            top: -0.25vh;
+            left: 0.2vw;
+        }
+
+        #tagline {
+            margin: 0.2vh 0 6vh 4vw;
+            font-size: 3vh;
+            position: absolute;
+            font-weight: 100;
+        }
+
+        .flex-container {
+            display: flex;
+        }
+
+        #main {
+            position: relative;
+            top: 10vh;
+            flex: 1;
+        }
+
+        #bio {
+            width: 30vw;
+            margin: 2vh 0 0 3vw;
+            font-size: 2vh;
+            padding: 1vh;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+        #links {
+            width: 30vw;
+            margin: 8vh 0 1vh 4vw;
+        }
+
+        .link {
+            margin: 7vh 0 7vh 0;
+        }
+
+        .link-btn {
+            padding: 3vh;
+            font-size: 2vh;
+            transition-duration: 0.3s;
+        }
+
+        .link-btn:hover {
+            background-color: white;
+            color: #3e3e3e;
+            box-shadow: -1vw 1vh 1vh rgba(0, 0, 0, 1);
+            transition-duration: 0.3s;
+        }
+
+        .fa {
+            font-size: 3vh;
+            padding-right: 1vw;
+            vertical-align: sub;
+        }
+
+        #content {
+            position: relative;
+            flex: 2;
+            text-align: center;
+            margin-left: 10vw;
+            /* background-image: linear-gradient(to left, rgba(0, 0, 0, 0.00), #3e3e3e); */
+        }
+
+        #projects p,
+        #skills p {
+            position: absolute;
+            display: inline;
+            z-index: 1;
+            right: 25vw;
+            font-size: 3vh;
+        }
+
+        #projects:hover, #skills:hover {
+            text-shadow: 0.2vw 0.2vh 0.2vh #3e3e3e;
+            /* border: #3e3e3e 1vh solid; */
+            transition-duration: 0.3s;
+        }
+
+        .vid {
+            width: 54.9vw;
+            height: 37vh;
+            position: relative;
+            opacity: 0.45;
+            transition-duration: 0.3s;
+            object-fit: cover;
+        }
+
+        .vid:hover {
+            opacity: 1;
+            transition-duration: 0.3s;
+        }
+
+        #copyright {
+            position: fixed;
+            bottom: 0vh;
+            right: 1vw;
+            font-weight: 100;
+        }
+
+        @media only screen and (max-width: 768px) {
+
+            /* Change the layout for small screens */
+            #bio,
+            #links {
+                width: 90vw;
+            }
+        }
     </style>
-  </head>
-  <body>
+</head>
+
+<body>
     <div id="top">
-    <p id="name">Cameron Squire</p>
-    <div id="tagline" class="console-container"><span id="text"></span><div class="console-underscore" id="console">&#95;</div></div>
+        <p id="name">Cameron Squire</p>
+        <!-- leave this (tagline) as one line, it adds spaces if formatted properly cause yeah -->
+        <div id="tagline" class="console-container"><span id="text"></span><div class="console-underscore" id="console">&#95;</div></div>
     </div>
-    <div id="main">
-        <div id="bio">
-            <p id="intro">I know what you're thinking, <i style="font-weight: 300;">jeez another nerd with too many domains</i> right? Hear me out for just a sec though, becuase I am no software developer.</p>
-            <p id="explain">I am a <span id="age">noData</span> second old networking student and car enthusiast, I enjoy messing with hardware and searching for vulnerabilities, both physical and virtual.</p>
-            <p id="pitch">If that's something you want on your team or just want to say hey, reach out and let's chat!</p>
+    <div id="page" class="flex-container">
+        <div id="main" class="flex-child">
+            <div id="bio">
+                <p id="intro">I know what you're thinking, <i style="font-weight: 300;">another nerd with too many
+                        domains</i> right? Hear me out for just a sec though, becuase I am no software developer.</p>
+                <p id="explain">I am a <span id="age">noData</span> second old networking student and car enthusiast, I
+                    enjoy messing with hardware and searching for vulnerabilities, both physical and virtual.</p>
+                <p id="pitch">If that's something you want on your team or just want to say hey, reach out and let's
+                    chat!</p>
+            </div>
+            <div id="links">
+                <div id="email" class="link">
+                    <a class="link-btn" href="mailto:hello@cameronsquire.com"><i class="fa fa-duotone fa-envelope"></i>
+                        hello@cameronsquire.com</a>
+                </div>
+                <div id="linkedin" class="link">
+                    <a class="link-btn" href="https://linkedin.com/in/camsqu"><i class="fa fa-brands fa-linkedin"></i>
+                        /in/camsqu</a>
+                </div>
+                <div id="github" class="link">
+                    <a class="link-btn" href="https://github.com/camsqu"><i class="fa fa-brands fa-github"></i>
+                        /camsqu</a>
+                </div>
+            </div>
         </div>
-        <div id="links">
-            <div id="email" class="link">
-                <a class="link-btn" href="mailto:hello@cameronsquire.com"><i class="fa fa-duotone fa-envelope"></i> hello@cameronsquire.com</a>
-            </div>
-            <div id="linkedin" class="link">
-                <a class="link-btn" href="https://linkedin.com/in/camsqu"><i class="fa fa-brands fa-linkedin"></i> /in/camsqu</a>
-            </div>
-            <div id="github" class="link">
-                <a class="link-btn" href="https://github.com/camsqu"><i class="fa fa-brands fa-github"></i> /camsqu</a>
-            </div>
+        <div id="content" class="flex-child">
+            <table>
+                <tr>
+                    <div id="projects" onmouseover="vidAutoplay('stream-projects')" onmouseleave="vidPause('stream-projects')">
+                        <p id="proj">Projects</p>
+                      <video class="vid" id="stream-projects" muted loop>
+                        <source src="https://customer-9wg5jyhztwfe1sra.cloudflarestream.com/70e8e2b2e43ec39fc2564fdc8b5c38d3/downloads/default.mp4" type="video/mp4">
+                      </video>
+                    </div>
+                </tr>
+                <tr>
+                    <div id="skills" onmouseover="vidAutoplay('stream-skills')" onmouseleave="vidPause('stream-skills')">
+                      <p id="skill">Skills</p>
+                      <video class="vid" id="stream-skills" muted loop>
+                        <source src="https://customer-9wg5jyhztwfe1sra.cloudflarestream.com/9617029e9c5be3cdea9b9a203edb5bdc/downloads/default.mp4" type="video/mp4">
+                      </video>
+                    </div>
+                </tr>
+            </table>
         </div>
     </div>
     <div id="footer">
         <p id="copyright"><i class="fa-duotone fa-copyright"></i> 2023 Cameron Squire</p>
-        <footer>
-            
-        </footer>
     </div>
-  </body>
-  <script src="userxp.js"></script>
+</body>
+<script src="https://embed.cloudflarestream.com/embed/sdk.latest.js"></script>
+<script src="userxp.js"></script>
 </html>

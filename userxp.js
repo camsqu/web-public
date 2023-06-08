@@ -55,6 +55,33 @@ function consoleText(words, id, colors) {
   }, 400)
 }
 
+
+//---Cloudflare Stream---
+//Player API (not in use)
+const player = Stream(document.getElementById('proj'));
+const player2 = Stream(document.getElementById('skill'));
+
+  player.addEventListener('play', () => {
+    console.log('playing!');
+  });
+  player.play().catch(() => {
+    console.log('playback failed, muting to try again');
+    player.muted = true;
+    player.play();
+  });
+
+//<video> tag controls
+
+function vidAutoplay(element) {
+  var video = document.getElementById(element);
+  video.play();
+}
+
+function vidPause(element) {
+  var video = document.getElementById(element);
+  video.pause();
+}
+
 //---Personal code---
 function countSecondsSinceDate(date) {
   const currentDate = new Date();
