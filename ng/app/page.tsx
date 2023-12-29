@@ -1,4 +1,3 @@
-"use client";
 import NextLink from "next/link";
 import { Link } from "@nextui-org/link";
 import { Snippet } from "@nextui-org/snippet";
@@ -8,7 +7,9 @@ import { siteConfig } from "@/config/site";
 import { title, subtitle } from "@/components/primitives";
 import { GithubIcon } from "@/components/icons";
 import React from "react";
-import { Card, CardFooter, Image, Button } from "@nextui-org/react";
+import { Card, CardFooter } from "@nextui-org/card";
+import { Button } from "@nextui-org/button";
+import { Image } from "@nextui-org/image";
 
 export const runtime = 'edge';
 
