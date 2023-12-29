@@ -10,6 +10,8 @@ import { GithubIcon } from "@/components/icons";
 import React from "react";
 import { Card, CardFooter, Image, Button } from "@nextui-org/react";
 
+export const runtime = 'edge';
+
 export default function Home() {
 
 	return (

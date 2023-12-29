@@ -39,5 +39,8 @@
     "tailwind-variants": "^0.1.13",
     "tailwindcss": "3.3.3",
     "typescript": "5.0.4"
+  },
+  "devDependencies": {
+    "@cloudflare/next-on-pages": "^1.8.2"
   }
 }
