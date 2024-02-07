@@ -1,58 +1,34 @@
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
-	name: "Next.js + NextUI",
-	description: "Make beautiful websites regardless of your design experience.",
+	name: "Cameron Squire",
+	description: "A 24-year old networking and security enthusiast, surfing on the internet.",
 	navItems: [
 		{
 			label: "Home",
 			href: "/",
 		},
     {
-      label: "Docs",
-      href: "/docs",
+      label: "Projects",
+      href: "/projects",
     },
     {
-      label: "Pricing",
-      href: "/pricing",
-    },
-    {
-      label: "Blog",
-      href: "/blog",
-    },
-    {
-      label: "About",
-      href: "/about",
+      label: "Resume",
+      href: "/cv",
     }
 	],
 	navMenuItems: [
 		{
-			label: "Profile",
-			href: "/profile",
-		},
-		{
-			label: "Dashboard",
-			href: "/dashboard",
+			label: "Home",
+			href: "/",
 		},
 		{
 			label: "Projects",
 			href: "/projects",
 		},
 		{
-			label: "Team",
-			href: "/team",
-		},
-		{
-			label: "Calendar",
-			href: "/calendar",
-		},
-		{
-			label: "Settings",
-			href: "/settings",
-		},
-		{
-			label: "Help & Feedback",
-			href: "/help-feedback",
+			label: "Resume",
+			href: "/cv",
 		},
 		{
 			label: "Logout",
@@ -63,6 +39,6 @@ export const siteConfig = {
 		github: "https://github.com/camsqu",
 		twitter: "https://twitter.com/camsqu",
 		docs: "https://camsqu.net",
-		discord: "https://discord.gg/camsqu",
+		discord: "https://discord.com/users/134832327061798915",
 	},
 };

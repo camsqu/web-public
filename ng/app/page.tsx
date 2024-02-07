@@ -7,64 +7,56 @@ import { siteConfig } from "@/config/site";
 import { title, subtitle } from "@/components/primitives";
 import { GithubIcon } from "@/components/icons";
 import React from "react";
-import { Card, CardFooter } from "@nextui-org/card";
+import { Card, CardBody, CardFooter } from "@nextui-org/card";
 import { Button } from "@nextui-org/button";
 import { Image } from "@nextui-org/image";
+import { Spacer } from "@nextui-org/spacer";
+import { Divider } from "@nextui-org/divider";
+import { User } from "@nextui-org/user";
 
 export const runtime = 'edge';
+
+function countSecondsSinceDate() {
+	let date = new Date(2000-0o2-0o5);
+	const currentDate = new Date();
+	const difference = currentDate.getTime() - date.getTime();
+	const seconds = Math.floor(difference / 1000);
+	return seconds;
+  }
 
 export default function Home() {
 
 	return (
 		<section className="flex">
-			<div className="flex-col md-5 mr-10">
-				<h1 className={title({ color: "cyan" })}>Cameron Squire</h1>
+			<div className="flex-col">
+				<h1 className={title()}>👋 Hey there, I'm <span className={title({ color: "cyan" })}>Cameron Squire</span></h1>
 				<h2 className={subtitle()}>Networking Student and HomeKit user</h2>
-			</div>
-			<div className="flex-row justify-right align-items-right">
-				<div className="flex">
-				<Card
-					isFooterBlurred
-					isHoverable
-					radius="lg"
-					className="border-none hover:scale-110"
-				>
-					<Image
-						alt="Woman listing to music"
-						className="object-cover"
-						height={200}
-						src="https://64.media.tumblr.com/74f1b15e95c6dc42a2d914d628b43088/b23c1e90665c60ca-19/s1280x1920/09935c2f01e278877f9acad3ec086e46f40fe5c0.gifv"
-						width={200}
-					/>
-					<CardFooter className="justify-between before:bg-white/10 border-white/20 border-1 overflow-hidden py-1 absolute before:rounded-xl rounded-large bottom-1 w-[calc(100%_-_8px)] shadow-small ml-1 z-10">
-						<p className="text-tiny text-white/80">Hot memes</p>
-						<Button className="text-tiny text-white bg-black/20" variant="flat" color="default" radius="lg" size="sm">
-							Notify me
-						</Button>
-					</CardFooter>
+				
+				<Spacer y={14} />
+				<Card>
+					<CardBody>
+					<p id="intro">I know what you're thinking, <i>another nerd with too many
+                        domains</i> right? Hear me out for just a sec though, becuase I am no software developer.</p>
+                <p id="explain">I am a many second old networking student and car enthusiast, I
+                    enjoy messing with hardware and searching for vulnerabilities, both physical and virtual.</p>
+                <p id="pitch">If that's something you want on your team or just want to say hey, reach out and let's
+                    chat!</p>
+					</CardBody>
 				</Card>
-				</div>
-				<div className="flex">
-				<Card
-					isFooterBlurred
-					isHoverable
-					radius="lg"
-					className="border-none hover:scale-110"
-				>
-					<Image
-						alt="Woman listing to music"
-						className="object-cover"
-						height={200}
-						src="https://64.media.tumblr.com/0013d8a7f1ef8706fae27a657d55f981/tumblr_pp999v0FSv1rnbw6mo1_500.gifv"
-						width={200}
-					/>
-					<CardFooter className="justify-between before:bg-white/10 border-white/20 border-1 overflow-hidden py-1 absolute before:rounded-xl rounded-large bottom-1 w-[calc(100%_-_8px)] shadow-small ml-1 z-10">
-						<p className="text-tiny text-white/80">About me</p>
-						<Button className="text-tiny text-white bg-black/20" variant="flat" color="default" radius="lg" size="sm">
-							Notify me
-						</Button>
-					</CardFooter>
-				</Card>
+                <Spacer y={4} />
+				<div className="max-w-lg">
+						<div className="space-y-1">
+							<h4 className="text-medium font-medium">Find my accounts here</h4>
+							<p className="text-small text-default-400">If you want to reach out and chat, you can do so from one of the below options.</p>
+						</div>
+						<Divider className="my-4" />
+						<div className="flex h-5 items-center space-x-4 text-small">
+						<Link isBlock showAnchorIcon href="mailto:hello@cameronsquire.com" size="lg" color="success">hello@</Link>
+							<Divider orientation="vertical" />
+							<Link isBlock showAnchorIcon href="https://linkedin.com/in/camsqu" color="primary">/in/camsqu</Link>
+							<Divider orientation="vertical" />
+							<Link isBlock showAnchorIcon href="https://github.com/camsqu" color="foreground">/camsqu</Link>
+						</div>
 				</div>
 			</div>
 		</section>
