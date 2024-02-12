@@ -13,6 +13,7 @@ import { Image } from "@nextui-org/image";
 import { Spacer } from "@nextui-org/spacer";
 import { Divider } from "@nextui-org/divider";
 import { User } from "@nextui-org/user";
+import 'animate.css';
 
 export const runtime = 'edge';
 
@@ -30,7 +31,7 @@ export default function Home() {
 		<section className="flex">
 			<div className="flex-col">
 				<h1 className={title()}>👋 Hey there, I'm <span className={title({ color: "cyan" })}>Cameron Squire</span></h1>
-				<h2 className={subtitle()}>Networking Student and HomeKit user</h2>
+				<h2 className={`${subtitle()} animate__animated animate__fadeInUp`}>Networking Student and HomeKit user</h2>
 				
 				<Spacer y={14} />
 				<Card>
