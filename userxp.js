@@ -58,17 +58,17 @@ function consoleText(words, id, colors) {
 
 //---Cloudflare Stream---
 //Player API (not in use)
-const player = Stream(document.getElementById('proj'));
-const player2 = Stream(document.getElementById('skill'));
+// const player = Stream(document.getElementById('proj'));
+// const player2 = Stream(document.getElementById('skill'));
 
-  player.addEventListener('play', () => {
-    console.log('playing!');
-  });
-  player.play().catch(() => {
-    console.log('playback failed, muting to try again');
-    player.muted = true;
-    player.play();
-  });
+//   player.addEventListener('play', () => {
+//     console.log('playing!');
+//   });
+//   player.play().catch(() => {
+//     console.log('playback failed, muting to try again');
+//     player.muted = true;
+//     player.play();
+//   });
 
 //<video> tag controls
 
