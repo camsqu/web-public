@@ -90,12 +90,12 @@ function countSecondsSinceDate(date) {
   return seconds;
 }
 
-var secondsOld = countSecondsSinceDate(2000-02-05);
+var secondsOld = countSecondsSinceDate(2000-0o2-0o5);
 document.getElementById('age').innerHTML = secondsOld;
 
 window.setInterval(function(){
 
-  var secondsOld = countSecondsSinceDate(2000-02-05);
+  var secondsOld = countSecondsSinceDate(2000-0o2-0o5);
   document.getElementById('age').innerHTML = secondsOld;
 
 }, 1000)
