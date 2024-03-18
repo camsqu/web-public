@@ -31,21 +31,21 @@ export default function Home() {
 		<section className="flex">
 			<div className="flex-col">
 				<h1 className={title()}>👋 Hey there, I'm <span className={title({ color: "cyan" })}>Cameron Squire</span></h1>
-				<h2 className={`${subtitle()} animate__animated animate__fadeInUp`}>Networking Student and HomeKit user</h2>
+				<h2 className={`${subtitle()} animate__animated animate__fadeInUp`}>Networking Grad and HomeKit user</h2>
 				
 				<Spacer y={14} />
 				<Card>
 					<CardBody>
 					<p id="intro">I know what you're thinking, <i>another nerd with too many
-                        domains</i> right? Hear me out for just a sec though, becuase I am no software developer.</p>
-                <p id="explain">I am a many second old networking student and car enthusiast, I
+                        domains</i> right? Hear me out for just a sec though, becuase I'm not just another software engineer.</p>
+                <p id="explain">I am a 24 year-old network engineering graduate, I like cars, security flaws, and public transit, I
                     enjoy messing with hardware and searching for vulnerabilities, both physical and virtual.</p>
                 <p id="pitch">If that's something you want on your team or just want to say hey, reach out and let's
                     chat!</p>
 					</CardBody>
 				</Card>
-                <Spacer y={4} />
-				<div className="max-w-lg">
+                <Spacer y={10} />
+				<div className="max-w-full">
 						<div className="space-y-1">
 							<h4 className="text-medium font-medium">Find my accounts here</h4>
 							<p className="text-small text-default-400">If you want to reach out and chat, you can do so from one of the below options.</p>

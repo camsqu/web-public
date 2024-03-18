@@ -1,0 +1,316 @@
+{
+    "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+    "basics": {
+      "name": "Cameron Squire",
+      "label": "Engineering Tech Student @ SJSU | Cybersecurity and Networking Enthusiast",
+      "image": "https://media.licdn.com/dms/image/D5603AQEx__O84ryKlA/profile-displayphoto-shrink_200_200/0/1675265828854?e=1712793600&v=beta&t=5DawXRpIa3edcdLuVOobbA_yDsArVmJuzW44InyYhVE",
+      "email": "linkedin@cameronsquire.com",
+      "phone": "",
+      "url": "https://cameronsquire.com",
+      "summary": "Hey there! I'm your 24-year-old techie, and I have been playing with computers since 2002 and working on them since 2012. My passion is in cybersecurity, computer networks, and all the hardware that comes with it. I started with HTML in high school and found my love for computer networking. I taught myself Windows Server for fun, thanks to the power of virtual machines, and learned why Linux is better for some applications. I started working as an Ops Specialist for Lime in Isla Vista, then side-hustled my way through COVID as a delivery driver. Coming out of the pandemic, I had the amazing opportunity to intern at Verkada as a Technical Support Engineer and help their mission to protect people and property. As I wrap up my studies at San Jose State University, I am excitedly looking ahead to opportunities to do what I love. Go Spartans!",
+      "location": {
+        "countryCode": "US",
+        "address": "United States"
+      },
+      "profiles": [
+        {
+          "network": "LinkedIn",
+          "username": "camsqu",
+          "url": "https://www.linkedin.com/in/camsqu/"
+        }
+      ]
+    },
+    "work": [
+      {
+        "name": "Verkada",
+        "position": "Technical Support Engineering Intern",
+        "startDate": "2023-01-31",
+        "endDate": "2023-05-31",
+        "highlights": [],
+        "summary": "• Provided technical support to end-users by troubleshooting Verkada hardware and software over email, phone, and chat.\n• Collaborated with teams across product development and engineering to identify and resolve technical issues.\n• Conducted root cause analysis of recurring technical issues to provide recommendations for permanent solutions.",
+        "url": "https://www.linkedin.com/company/12699415",
+        "location": "San Mateo, California, United States",
+        "logo": "https://asset.brandfetch.io/idCLXeli5r/idM3xyB8n_.jpeg"
+      },
+      {
+        "name": "Lime",
+        "position": "Operations Specialist",
+        "startDate": "2019-09-30",
+        "endDate": "2020-05-31",
+        "highlights": [],
+        "summary": "• Managed retrieval, deployment, and monitoring of shared e-scooters in the local community\n• Diagnosed and repaired hardware and software issues in the field while identifying areas for improvement.\n• Acted as a representative of the company providing customer service to riders.",
+        "url": "https://www.linkedin.com/company/16199690",
+        "location": "Santa Barbara, California Area",
+        "logo": "https://cdn.cookielaw.org/logos/39be4dcd-d964-49dc-be91-fda9442ea2fa/7ae55708-0caa-4b73-97a5-ce76ff683ffb/2594d4ca-9448-4d1c-9b2d-1c07b9b8aa27/ezgif.com-gif-maker-p-500.png"
+      },
+      {
+        "name": "Translating Technologies",
+        "position": "IT Support Specialist",
+        "startDate": "2018-12-31",
+        "endDate": "2019-09-30",
+        "highlights": [],
+        "summary": "• Assisted clients with at-home technical support for various hardware and software issues\n• Diagnosed and repaired home network, IoT, and AV configurations\n• Explained complex procedures and resolutions to clients in an easily digestible, comprehensible manner",
+        "location": "Santa Barbara, California Area",
+        "logo": "https://img1.wsimg.com/isteam/ip/b92c0e1e-118b-41a3-b076-de4765675514/Logo_2.PNG/:/rs=w:280,h:280,cg:true,m/cr=w:280,h:280/qt=q:95"
+      }
+    ],
+    "volunteer": [],
+    "education": [
+      {
+        "institution": "San Jose State University",
+        "area": "B.S. Engineering Technology, Computer Network System Management",
+        "studyType": "Bachelor's degree",
+        "startDate": "2021-08-31",
+        "endDate": "2024-05-31",
+        "bgimage": "https://blogs.sjsu.edu/newsroom/files/2022/01/ADJ_sjsu-gate-dschmitz-111417-3154_flat-2.jpg",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ec/San_Jose_State_Spartans_logo.svg/1200px-San_Jose_State_Spartans_logo.svg.png",
+        "score": "Senior",
+        "courses": [
+          "TECH 60 - Analog/Digital Circuits",
+          "TECH 170 - Connected Products and Applications",
+          "TECH 171 - Network Security and Prevention",
+          "TECH 179 - Cybersecurity System Management"
+        ]
+      },
+      {
+        "institution": "Santa Barbara City College",
+        "area": "Computer Network Engineering",
+        "studyType": "",
+        "startDate": "2018-08-31",
+        "endDate": "2021-05-31",
+        "bgimage": "https://glumac.com/wp-content/uploads/2018/11/Santa-Barbara-Community-College-interior.jpg",
+        "image": "https://cdn.theorg.com/bf69ed63-0422-4514-8251-aa1acecc0361_thumb.jpg",
+        "score": "",
+        "courses": [
+          "CNEE 206 - Microsoft Windows Server Administration",
+          "CIS 117 - Introduction to SQL Programming"
+        ]
+      }
+    ],
+    "awards": [],
+    "certificates": [
+      {
+        "name": "CCNAv7: Introduction to Networks",
+        "issuer": "Cisco Networking Academy",
+        "startDate": "2022-06-30",
+        "url": "https://www.credly.com/badges/fc44dd7e-630d-4f71-863f-62095b9e1bd4/public_url",
+        "image": "https://wallpapercave.com/wp/wp4434686.png"
+      },
+      {
+        "name": "CCNA: Switching, Routing, and Wireless Essentials",
+        "issuer": "Cisco Networking Academy",
+        "startDate": "2023-02-28",
+        "url": "https://www.credly.com/badges/d4374822-7a9b-4f68-8070-18ed16a60f08/public_url",
+        "image": "https://wallpapercave.com/wp/wp4434686.png"
+      },
+      {
+        "name": "AWS Certified Cloud Practitioner",
+        "issuer": "Amazon Web Services (AWS)",
+        "endDate": "2026-03-31",
+        "startDate": "2023-03-31",
+        "url": "https://www.credly.com/badges/46021095-fc37-41f0-960a-a0bca1674270/public_url",
+        "image": "https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png"
+      },
+      {
+        "name": "CCNA: Enterprise Networking, Security, and Automation",
+        "issuer": "Cisco Networking Academy",
+        "startDate": "2023-07-31",
+        "url": "https://www.credly.com/badges/ebc6a31e-588b-449c-a6f1-55b64f971bfa/public_url",
+        "image": "https://wallpapercave.com/wp/wp4434686.png"
+      },
+      {
+        "name": "Cisco Certified Network Associate",
+        "issuer": "Cisco",
+        "endDate": "2027-01-31",
+        "startDate": "2024-01-31",
+        "url": "https://www.credly.com/badges/45e1245d-8e6d-4a51-95d3-9e60959bbe54/public_url",
+        "image": "https://i.pinimg.com/originals/cb/cd/b2/cbcdb2e0605dc6384eda6bded9b8b443.jpg"
+      }
+    ],
+    "publications": [],
+    "skills": [
+      {
+        "name": "Identity and Access Management (IAM)",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Cybersecurity",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Amazon Web Services (AWS)",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Simultaneous Multi-Vehicle Operation",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Active Directory",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Computer Hardware",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Network Troubleshooting",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Python (Programming Language)",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Network Security",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Software Defined Networking",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "SQL",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Routing and Switching",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Microsoft Office",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Technical Support",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Network Design",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Network Address Translation (NAT)",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Hardware Diagnostics",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Network Automation",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Customer Service",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Automation",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Wireless Networking",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Kali Linux",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Virtualization",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Distribution Logistics",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Customer Satisfaction",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Network Administration",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Cloud Computing",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Java",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "IP Networking",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Internet Protocol Suite (TCP/IP)",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Dynamic Routing",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Cisco Certified",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Wide Area Network (WAN)",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Software Testing",
+        "level": "",
+        "keywords": []
+      }
+    ],
+    "languages": [
+      {
+        "language": "English",
+        "fluency": "Native Speaker"
+      }
+    ],
+    "interests": [],
+    "references": [],
+    "projects": [],
+    "meta": {
+      "version": "v1.0.0",
+      "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
+    }
+  }

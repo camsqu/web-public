@@ -14,7 +14,7 @@ export const siteConfig = {
     },
     {
       label: "Resume",
-      href: "/cv",
+      href: "/resume",
     }
 	],
 	navMenuItems: [
@@ -28,11 +28,7 @@ export const siteConfig = {
 		},
 		{
 			label: "Resume",
-			href: "/cv",
-		},
-		{
-			label: "Logout",
-			href: "/logout",
+			href: "/resume",
 		},
 	],
 	links: {
