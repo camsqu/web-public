@@ -125,7 +125,7 @@ export default function ResumePage() {
 		<div className="">
 			<div className="">
 				<div className="float-right">
-					<Button color="primary" variant="faded" className="" href="https://cameronsquire.com/resume" as={Link} size="lg" showAnchorIcon>Download PDF</Button>
+					<Button color="primary" variant="faded" className="" href="https://cameronsquire.com/resume-pdf" as={Link} size="lg" showAnchorIcon>Download PDF</Button>
 				</div>
 			</div>
 			<div className="">
