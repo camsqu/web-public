@@ -133,7 +133,7 @@ export default function ResumePage() {
 					name="Cameron Squire"
 					description="A 24-year old networking and security enthusiast, surfing on the internet."
 					avatarProps={{
-						src: "https://media.licdn.com/dms/image/D5603AQEx__O84ryKlA/profile-displayphoto-shrink_200_200/0/1675265828854?e=1712793600&v=beta&t=5DawXRpIa3edcdLuVOobbA_yDsArVmJuzW44InyYhVE",
+						src: "/cameron-pfp.jpeg",
 						size: "lg",	
 						name: "CS"
 					}}
