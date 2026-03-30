@@ -1,13 +1,6 @@
 import { title } from "@/components/primitives";
-import { User } from "@nextui-org/user";
-import {Spacer} from "@nextui-org/spacer";
-import {Button, ButtonGroup} from "@nextui-org/button";
-import { Link } from "@nextui-org/link";
-import { Image } from "@nextui-org/image";
-import { Divider } from "@nextui-org/divider";
-import {Chip} from "@nextui-org/chip";
+import { User, Spacer, Button, ButtonGroup, Link, Image, Divider, Chip, Card, CardHeader, CardBody, CardFooter } from "@nextui-org/react";
 import React from "react";
-import {Card, CardHeader, CardBody, CardFooter} from "@nextui-org/card";
 import resume from "./resume.json";
 // import { DownloadIcon } from './downloadIcon';
 

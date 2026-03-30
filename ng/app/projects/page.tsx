@@ -1,11 +1,6 @@
 import React from "react";
-import {Card, CardHeader, CardBody, CardFooter } from "@nextui-org/card";
-import { Spacer } from "@nextui-org/spacer";
-// import {  Autocomplete,  AutocompleteSection,  AutocompleteItem} from "@nextui-org/autocomplete";
+import { Card, CardHeader, CardBody, CardFooter, Spacer, Image, Link, Divider } from "@nextui-org/react";
 import { title } from "@/components/primitives";
-import { Image } from "@nextui-org/image";
-import { Link } from "@nextui-org/link";
-import { Divider } from "@nextui-org/divider";
 
 export default function ProjectsPage() {
 	return (

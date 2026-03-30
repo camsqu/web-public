@@ -1,21 +1,10 @@
 import NextLink from "next/link";
-import { Link } from "@nextui-org/link";
-import { Snippet } from "@nextui-org/snippet";
-import { Code } from "@nextui-org/code"
-import { button as buttonStyles } from "@nextui-org/theme";
+import { Link, Snippet, Code, button as buttonStyles, Card, CardBody, CardFooter, Button, Image, Spacer, Divider, User } from "@nextui-org/react";
 import { siteConfig } from "@/config/site";
 import { title, subtitle } from "@/components/primitives";
 import { GithubIcon } from "@/components/icons";
 import React from "react";
-import { Card, CardBody, CardFooter } from "@nextui-org/card";
-import { Button } from "@nextui-org/button";
-import { Image } from "@nextui-org/image";
-import { Spacer } from "@nextui-org/spacer";
-import { Divider } from "@nextui-org/divider";
-import { User } from "@nextui-org/user";
 import 'animate.css';
-
-export const runtime = 'edge';
 
 function countSecondsSinceDate() {
 	let date = new Date(2000-0o2-0o5);

@@ -1,5 +1,5 @@
 import React from "react";
-import { Divider } from '@nextui-org/divider';
+import { Divider } from '@nextui-org/react';
 
 export const Banner = () => {
   return (
