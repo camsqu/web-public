@@ -7,7 +7,7 @@
       "email": "linkedin@cameronsquire.com",
       "phone": "",
       "url": "https://cameronsquire.com",
-      "summary": "Hey there! I'm your 24-year-old techie, and I have been playing with computers since 2002 and working on them since 2012. My passion is in cybersecurity, computer networks, and all the hardware that comes with it. I started with HTML in high school and found my love for computer networking. I taught myself Windows Server for fun, thanks to the power of virtual machines, and learned why Linux is better for some applications. I started working as an Ops Specialist for Lime in Isla Vista, then side-hustled my way through COVID as a delivery driver. Coming out of the pandemic, I had the amazing opportunity to intern at Verkada as a Technical Support Engineer and help their mission to protect people and property. As I wrap up my studies at San Jose State University, I am excitedly looking ahead to opportunities to do what I love. Go Spartans!",
+      "summary": "Hey there! I'm your 26-year-old techie, and I have been playing with computers since 2002 and working on them since 2012. My passion is in cybersecurity, computer networks, and all the hardware that comes with it. I started with HTML in high school and found my love for computer networking. I taught myself Windows Server for fun, thanks to the power of virtual machines, and learned why Linux is better for some applications. I started working as an Ops Specialist for Lime in Isla Vista, then side-hustled my way through COVID as a delivery driver. Coming out of the pandemic, I had the amazing opportunity to intern at Verkada as a Technical Support Engineer and help their mission to protect people and property. As I wrap up my studies at San Jose State University, I am excitedly looking ahead to opportunities to do what I love. Go Spartans!",
       "location": {
         "countryCode": "US",
         "address": "United States"
@@ -21,6 +21,28 @@
       ]
     },
     "work": [
+      {
+        "name": "Cloudflare",
+        "position": "Solutions Engineer",
+        "startDate": "2025-07-14",
+        "endDate": "",
+        "highlights": [],
+        "summary": "Working with customers in a pre-sales environment, driving techincal conversations and validating solutions that will help protect the internet.",
+        "url": "https://www.linkedin.com/company/cloudflare",
+        "location": "San Francisco, California, United States",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/9/94/Cloudflare_Logo.png"
+      },
+      {
+        "name": "Verkada",
+        "position": "Technical Support Engineer",
+        "startDate": "2024-06-17",
+        "endDate": "2025-07-11",
+        "highlights": [],
+        "summary": "• Provided technical support to end-users by troubleshooting Verkada hardware and software over email, phone, and chat.\n• Collaborated with teams across product development and engineering to identify and resolve technical issues.\n• Conducted root cause analysis of recurring technical issues to provide recommendations for permanent solutions.",
+        "url": "https://www.linkedin.com/company/12699415",
+        "location": "San Mateo, California, United States",
+        "logo": "https://asset.brandfetch.io/idCLXeli5r/idM3xyB8n_.jpeg"
+      },
       {
         "name": "Verkada",
         "position": "Technical Support Engineering Intern",

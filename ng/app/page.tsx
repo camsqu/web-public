@@ -38,7 +38,7 @@ export default function Home() {
 					<CardBody>
 					<p id="intro">I know what you&apos;re thinking, <i>another nerd with too many
                         domains</i> right? Hear me out for just a sec though, because I&apos;m not just another software engineer.</p>
-                <p id="explain">I am a 24 year-old network engineering graduate, I like cars, security flaws, and public transit, I
+                <p id="explain">I am a 26 year-old network engineering graduate, I like cars, security flaws, and public transit, I
                     enjoy messing with hardware and searching for vulnerabilities, both physical and virtual.</p>
                 <p id="pitch">If that&apos;s something you want on your team or just want to say hey, reach out and let&apos;s
                     chat!</p>
